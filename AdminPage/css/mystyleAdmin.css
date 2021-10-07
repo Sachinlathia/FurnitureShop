@@ -1,0 +1,42 @@
+body{
+    font-family: 'Nunito', sans-serif !important;
+    background-color: #DEE4E7 !important;
+}
+.ch_pozicija{
+    
+    background-color: #F0C38E;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-radius: 15px;
+}
+.ch_pozicija label{
+    color:#312C51;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 1000;
+    margin-top:10px;
+}
+
+.purpl{
+    display:block;
+    width:100%;
+    margin-bottom:10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    
+    background: #48426D;
+    color:white;
+    border:none;
+}
+.ch_proizvodjaci{
+    position:relative;
+    height: 50px !important;
+}
+h3{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-weight: 700;
+}

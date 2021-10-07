@@ -1,0 +1,54 @@
+body{
+    font-family: 'Nunito', sans-serif !important;
+    /* background-color: #DEE4E7 !important; */
+    background:url("../images/photo.jpg");
+    /* height: 90%;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.ch_pozicija{
+    
+    background: inherit;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .15);  
+ backdrop-filter: blur(10px);
+    
+}
+.form-text{
+    color: black;
+}
+.ch_pozicija label{
+    color:#312C51;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 1000;
+    margin-top:10px;
+}
+
+.purpl{
+    display:block;
+    width:100%;
+    margin-bottom:10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    
+    background: #48426D;
+    color:white;
+    border:none;
+}
+.ch-bold{
+    font-weight: 700;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hower{
+    color:#48426D;
+}
+.ch_error{
+    font-size:0.8rem !important;
+}
